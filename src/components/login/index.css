@@ -1,0 +1,108 @@
+.main{
+    display: flex;
+}
+
+
+
+.image{
+/* border: 1px solid black; */
+/* height: 700px ; */
+width: 57%;
+}
+.image{
+       background-image: url('https://colorlib.com/etc/lf/Login_v18/images/bg-01.jpg');
+}
+.form{
+/* border: 1px solid black; */
+/* height: 50% ; */
+width: 43%;
+}
+.LTC{
+margin-top: 170px;
+font-size: 35px;
+}
+.inputs{
+    margin-top: 30px;
+}
+.inputs>div>input{
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.inputs>div{
+    padding: 4px;
+}
+.remgot{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.mainFor{
+    margin-right: 60px;
+}
+.logButton{
+    margin-top: 30px;
+}
+.logButton>button{
+width: 450px;
+height: 50px;
+background-color: #6675df;
+border-radius: 10px;
+border: none;
+color: white;
+font-weight: bold;
+}
+.SL{
+    margin-top: 60px;
+    color: gray;
+    font-size: 15px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* padding: 20px; */
+    /* border: 1px solid black; */
+height: 80px;
+}
+.icons>div{
+    margin: 5px;
+}
+.icons>div>img{
+    width: 30px;
+    height: 30px;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    font-style:
+    font-variant-ligatures;
+    font-variant-caps: 
+    font-variant-numeric
+    font-variant-east-asian
+    font-weight
+    font-stretch;
+    font-size: 
+    font-family 
+    text-rendering auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
