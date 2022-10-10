@@ -17,7 +17,7 @@ return(
         <div><input type="text" placeholder="Password" name="" id="" /></div>
     </div>
     <div className="remgot">
-        <div>Remember me</div>
+        <div><input type="checkbox" name="" id="" /> Remember me</div>
         <div className="mainFor">Forgot Password?</div>
     </div>
     <div className="logButton">
