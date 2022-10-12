@@ -10,14 +10,24 @@ return(
 {/* form */}
 <div className="form">
     <div className="LTC">
-    Login to continue
+    Login to continue with
     </div>
-    <div className="inputs">
+    {/* <div className="inputs">
         <div><input type="text" placeholder="Email" name="" id="" /></div>
         <div><input type="text" placeholder="Password" name="" id="" /></div>
+    </div> */}
+    <div className="TAS">
+    <div class="customfield"> 
+        <input type="text" required />
+        <span class="placeholder">Email</span>
+    </div>
+    <div class="customfield"> 
+        <input type="Password" required />
+        <span class="placeholder">Password</span>
+    </div>
     </div>
     <div className="remgot">
-        <div><input type="checkbox" name="" id="" /> Remember me</div>
+        <div><input type="checkbox" name="" id="" />Remember me</div>
         <div className="mainFor">Forgot Password?</div>
     </div>
     <div className="logButton">

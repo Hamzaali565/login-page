@@ -21,7 +21,7 @@ width: 43%;
 margin-top: 170px;
 font-size: 35px;
 }
-.inputs{
+/* .inputs{
     margin-top: 30px;
 }
 .inputs>div>input{
@@ -31,7 +31,66 @@ font-size: 35px;
     border: 1px solid gray;
 }
 .inputs>div{
-    padding: 4px;
+    padding: 4px; */
+/* } */
+
+
+.customfield input{
+    border: none;
+-webkit-appearance: none;
+-ms-progress-appearance: none;
+-moz-appearance: none;
+appearance: none;
+/* background-color: aquamarine; */
+padding: 20px;
+border-radius: 3px;
+width: 410px;
+border-radius: 10px;
+outline: none;
+padding: 30px 20px 30px 20px;
+
+/* padding: 20px; */
+margin: 0px 150px 1px 0px;
+}
+.customfield{
+    /* height: 60px; */
+position: relative;
+font-size: 14px;
+margin-top: 20px;
+margin-bottom: 5px;
+color: #aaa;
+border: 1px solid black;
+width: 450px;
+border-radius: 10px;
+}
+.placeholder{
+    /* margin-bottom: 30px; */
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+    top: calc(50% + 4px) ;
+    color: #aaa;
+    transform: translateY(-50%);
+    transition: 
+    top 0.3s ease,
+    left 0.3s ease,
+    font-size 0.3s ease,
+    color 0.3s ease;    
+}
+.customfield input:valid + .placeholder,
+.customfield input:focus + .placeholder{
+    top: 26px;
+    left: 16px;
+    font-size: 10px;
+    color: #aaa;
+}
+/* .customfield input:focus + input{
+outline: blue;
+} */
+
+.TAS{
+margin-left: 67px;
+margin-top: 100px;
 }
 .remgot{
     display: flex;
@@ -74,7 +133,7 @@ height: 80px;
     width: 30px;
     height: 30px;
 }
-input {
+/* input {
     writing-mode: horizontal-tb !important;
     font-style:
     font-variant-ligatures;
@@ -105,4 +164,4 @@ input {
     border-style: inset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
-}
+} */
